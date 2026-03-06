@@ -1,0 +1,7 @@
+.cards{display:flex;gap:12px;padding:12px}
+.card{flex:1;padding:16px;border-radius:10px;background:linear-gradient(180deg,#fff,#f8fafc);box-shadow:0 4px 12px rgba(2,6,23,0.08);transition:transform .18s}
+.card:hover{transform:translateY(-6px)}
+.type{font-weight:600}
+.number{color:#64748b}
+.balance{margin-top:8px;font-size:1.15rem}
+.total{padding:12px;font-weight:700}

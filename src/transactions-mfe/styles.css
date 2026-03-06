@@ -1,0 +1,6 @@
+.controls{padding:12px}
+.tx-table{width:100%;border-collapse:collapse}
+.tx-table th, .tx-table td{padding:8px;border-bottom:1px solid #e6eef5;text-align:left}
+.badge{background:#eef2ff;padding:4px 8px;border-radius:6px;font-size:0.85rem}
+.credit{color:green}
+.debit{color:#c0262e}

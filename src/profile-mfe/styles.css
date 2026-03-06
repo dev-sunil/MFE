@@ -1,0 +1,4 @@
+.profile{padding:12px}
+.header{display:flex;gap:12px;align-items:center}
+.avatar{width:56px;height:56px;border-radius:999px;background:#0ea5e9;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.form input{display:block;width:100%;padding:8px;margin-top:4px}
