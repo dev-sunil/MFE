@@ -3,9 +3,12 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import './styles.css';
 
-const container = document.getElementById('root') || document.createElement('div');
-if (!container.parentElement) document.body.appendChild(container);
-const root = createRoot(container);
-root.render(<App />);
+// Only mount if running as a standalone app (has a root element in HTML)
+const rootElement = document.getElementById('root');
+if (rootElement && rootElement.children.length === 0) {
+  const root = createRoot(rootElement);
+  root.render(<App />);
+}
 
 export default App;
+
